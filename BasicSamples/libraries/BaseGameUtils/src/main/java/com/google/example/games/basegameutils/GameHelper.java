@@ -414,7 +414,6 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
             debugLog("Client already disconnected when we got onStop.");
         }
         mConnecting = false;
-        mExpectingResolution = false;
 
         // let go of the Activity reference
         mActivity = null;
